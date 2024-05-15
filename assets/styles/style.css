@@ -1,0 +1,15 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.conteiner-header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+a{
+    padding: 20px;
+}
