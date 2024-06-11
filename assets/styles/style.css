@@ -116,28 +116,26 @@ a {
   width: 100px;
 }
 .div1 {
-  width: 200px;
-  height: 200px;
+  width: 100%;
   text-align: center;
   display: inline-block;
   margin: 0;
   padding-top: 100px;
+  padding-left: 30px;
 }
 
 .div2 {
-  width: 200px;
-  height: 200px;
+  width: 100%;
   text-align: center;
   display: inline-block;
   margin: 0;
-  padding-top: 100px;
+
   position: relative;
   padding-left: 30px;
 }
 
 .div3 {
-  width: 200px;
-  height: 200px;
+  width: 100%;
   text-align: center;
   display: inline-block;
   margin: 0;
@@ -155,9 +153,7 @@ h4 {
 .conteiner-div4 {
   padding-top: 30px;
   text-align: left;
-
-  height: 300px;
-  width: 50%;
+  width: 90%;
 }
 
 .imagem {
@@ -170,28 +166,39 @@ h4 {
 }
 
 .conteiner-div {
-  width: 1080px;
+  width: 80%;
   height: 400px;
   display: inline-flex;
   justify-content: space-between;
 }
 
-.im1 {
-  float: left;
+.conteiner-section2 {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+.divtext1 {
+  width: 90%;
 }
 
-.divtext1 {
-  width: 800px;
-  margin-left: 25%;
+.divimgtext1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.divtexto1 {
 }
 
 .divtext2 {
-  width: 800px;
-  margin-left: 25%;
+  width: 90%;
 }
 
-.im2 {
-  float: left;
+.divimgtext2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.divtexto1 {
 }
 
 .textoFooter {
@@ -275,7 +282,6 @@ footer {
   }
 
   .conteiner-div {
-    max-width: 80%;
     display: grid;
     padding-bottom: 20px;
     align-content: space-evenly;
@@ -283,7 +289,7 @@ footer {
     align-items: center;
     justify-items: center;
     padding-bottom: 20px;
-    width: 450px;
+    width: 80%;
   }
   .div1 {
     padding-top: 30px;
@@ -294,7 +300,7 @@ footer {
   }
 
   .div3 {
-    padding-top: 250px;
+    padding-top: 200px;
   }
 
   .div4 {
@@ -302,18 +308,11 @@ footer {
     text-align: center;
   }
   .conteiner-div4 {
-    width: 100%;
-    text-align: center;
+    width: 90%;
+    text-align: left;
   }
-
-  .div4h3 {
-    padding: 10px;
-    width: 410px;
-  }
-
-  .div4h4 {
-    padding: 10px;
-    width: 414px;
+  h3 {
+    text-align: left;
   }
 
   .container {
@@ -322,6 +321,40 @@ footer {
     align-content: center;
     justify-content: space-around;
     justify-items: center;
+  }
+
+  .conteiner-section2 {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+  }
+  .divtext1 {
+    width: 90%;
+  }
+  p {
+    width: 90%;
+    text-align: justify;
+  }
+  .divimgtext1 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .divtexto1 {
+    text-align: left;
+  }
+
+  .divtext2 {
+    width: 90%;
+  }
+
+  .divimgtext2 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .divtexto1 {
+    text-align: left;
   }
 
   .posicionamentoFooter {
@@ -362,6 +395,7 @@ footer {
     display: grid;
   }
   .conteiner-div {
+    width: 100%;
     display: grid;
     position: static;
     padding-bottom: 20px;
@@ -371,6 +405,7 @@ footer {
     justify-items: center;
     padding-bottom: 20px;
   }
+
   .div1 {
     padding-top: 30px;
   }
@@ -388,8 +423,8 @@ footer {
     text-align: center;
   }
   .conteiner-div4 {
-    width: 100%;
-    text-align: center;
+    text-align: justify;
+    width: 90%;
   }
 
   .div4h3 {
@@ -408,6 +443,34 @@ footer {
     align-content: center;
     justify-content: space-around;
     justify-items: center;
+  }
+  .conteiner-section2 {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+  .divtext1 {
+    width: 100%;
+  }
+
+  .divimgtext1 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .divtexto1 {
+    width: 90%;
+  }
+  .divtext2 {
+    width: 100%;
+  }
+
+  .divimgtext2 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .divtexto2 {
+    width: 90%;
   }
 
   .posicionamentoFooter {
@@ -467,15 +530,11 @@ footer {
   }
 
   .div3 {
-    padding-top: 250px;
+    padding-top: 150px;
   }
 
   .div4 {
     padding-top: 490px;
-    text-align: center;
-  }
-  .conteiner-div4 {
-    width: 100%;
     text-align: center;
   }
 
